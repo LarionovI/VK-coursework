@@ -85,7 +85,7 @@ class Yandex:
                     break
         return f'disk/{self.folder_name}/'
 
-    def upload(self):  # загрузка фото в созданную папку
+    def upload(self):  # загрузка фото в созданную папкуg
         headers = {'Content-Type': 'application/json',
                    'Authorization': self.token}
         name_f = self.create_folder()
